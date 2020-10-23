@@ -1,0 +1,10 @@
+{
+  "whitelist": [
+    ["facebook",1],
+    ["instagram",2],
+    ["whatsapp",3],
+    ["snapchat",4],
+    ["loca.sc-jpl.com",4],
+    ["twitter",5]
+  ]
+}
