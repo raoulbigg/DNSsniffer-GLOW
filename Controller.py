@@ -12,7 +12,6 @@ from device import *
 current = []
 
 def liveView(pkt):
-	global current
 	if pkt.haslayer(DNSQR):
 		if "facebook" not in pkt[DNSQR].qname[0:-1] or "twitter" not in pkt[DNSQR].qname[0:-1] or "snapchat" not in pkt[DNSQR].qname[0:-1]:
 			packet = splitter(pkt[DNSQR].qname[0:-1])
